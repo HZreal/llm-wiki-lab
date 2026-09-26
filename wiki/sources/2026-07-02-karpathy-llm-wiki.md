@@ -1,7 +1,21 @@
-# 5分钟复刻 Andrej Karpathy 的 LLM Wiki
+---
+type: source
+created: 2026-07-02
+updated: 2026-09-27
+status: needs-review
+tags: [llm-wiki, simulation]
+---
+# 5分钟复刻 Andrej Karpathy 的 LLM Wiki（模拟资料）
+
+## 证据状态
+
+这是前期模拟流程使用的简短笔记，URL 和作者为占位信息，不是经过核验的文章。下面的日期为原始笔记所填元数据，不能据此确认真实发表时间。
+真实设计另见[[wiki/sources/karpathy-llm-wiki-idea|Karpathy idea 来源页]]，两份 raw 原文分别保留。
 
 ## 来源信息
-- 原始文件：[[raw/2026-07-02-karpathy-llm-wiki|raw/2026-07-02-karpathy-llm-wiki]]
+- 原始文件：[[raw/ingested/2026-07-02-karpathy-llm-wiki|模拟笔记归档原文]]
+- 输入路径：`raw/2026-07-02-karpathy-llm-wiki.md`；归档日期：2026-09-27（迁移已完成的模拟摄入）。
+- SHA-256：`29f4833097fb26d8f2faec750d942b80c8573d783a67076309a79537ca30ff8e`。
 - URL：https://example.com
 - 作者：xxx
 - 日期：2026-04-27
@@ -24,4 +38,4 @@
 - [[wiki/concepts/llm-wiki-vs-rag|LLM Wiki vs 传统 RAG]]
 
 ## 与本仓库规则的关系
-这篇资料与当前仓库的 `AGENTS.md` 规则一致：回答问题时优先参考 `wiki/`，必要时再回看 `raw/`；新增资料时需要从原始资料沉淀为可链接、可更新的 wiki 页面。
+这份练习笔记支持早期基本流程。当前[[AGENTS|完整规则]]补齐了三层架构、索引、日志、query 成果回流和 lint。不能把模拟笔记当成所有新增规则的依据。
